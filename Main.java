@@ -26,7 +26,7 @@ public class Main {
                 default -> System.out.println("Comando no reconocido. Usa: add | list | delete userN");
             }
         } catch (javax.crypto.AEADBadTagException e) {
-            System.out.println("❌ Contraseña incorrecta o archivo alterado.");
+            System.out.println(" Contraseña incorrecta o archivo alterado.");
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         }
