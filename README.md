@@ -1,4 +1,3 @@
-# Getters-Setters-OOP-Crypto-
 Example of OOP - Getters &amp; Setters - Crypto 
 ---
 # People Vault (Java-only, console, AES-GCM)
