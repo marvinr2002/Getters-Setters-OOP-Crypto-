@@ -69,7 +69,7 @@ public class Main {
 
         repo.save(people, pwd);
         Arrays.fill(pwd, '\0');
-        System.out.println("✅ Guardado en " + FILE_NAME);
+        System.out.println("Guardado en " + FILE_NAME);
     }
 
     private static void cmdList() throws Exception {
@@ -91,7 +91,7 @@ public class Main {
         boolean removed = people.removeIf(p -> label.equalsIgnoreCase(p.getLabel()));
         if (removed) {
             repo.save(people, pwd);
-            System.out.println("🗑️ Eliminado: " + label);
+            System.out.println("Eliminado: " + label);
         } else {
             System.out.println("No se encontró: " + label);
         }
