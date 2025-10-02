@@ -12,6 +12,7 @@ public class Main {
             System.out.println("  java Main list          -> listar personas (descifrado)");
             System.out.println("  java Main delete userN  -> eliminar por label (ej: user2)");
             return;
+            
         }
 
         String cmd = args[0].toLowerCase(Locale.ROOT);
